@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gal{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(Snapshot/bg3.jpg);
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+span{
+    color: white;
+}
+#gal_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+    padding-top: 20px;
+}
+#gal a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 30px;
+    background-color: #FF007F;
+    border-radius: 15px;
+}
+#gal_two{
+    margin: auto;
+    color: white;
+    width: 50%;
+    /* text-align: center; */
+}
+ #gal_two p{
+    line-height: 20px;
+} 
+#gal_two button{
+    background-color: #4682b4;
+    border: none;
+    padding: 6px 30px;
+    margin-left: 5px;
+    color: white;
+    border-radius: 15px;
+}
+#cool{
+    margin: 0 auto 20px auto;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+#cool h2{
+    font-size: 30px;
+    margin: 15px 0px 30px;
+}
+#cool_one{
+    color: #4682b4;
+}
+.one{
+    color: white;
+    border: 1px solid #4682b4;
+    padding: 4px 24px;
+    border-radius: 17px;
+    background-color: #4682b4;
+    margin: 4px;
+}
+.two{
+    color: #4682b4;
+    border: 1px solid #4682b4;
+    padding: 4px 24px;
+    border-radius: 17px;
+    margin: 4px;
+}
+
+#image{
+    max-width: 50%;
+    margin: auto;
+}
+#image img{
+    width: 140px;
+    height: 100px;
+    margin: 8px;
+}
